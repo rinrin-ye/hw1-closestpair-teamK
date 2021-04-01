@@ -124,7 +124,7 @@ public class Closest {
             for(int j=0; j<2; j++){
                 S[i][j] = r.nextInt(100);
             }
-        } //int[][] S={{3,2}, {4,3}, {5,2}, {6,7}, {8,4}};
+        }
         Closest closest = new Closest();
         closest.Sort(S,S.length,0);
         System.out.print("S:{");
