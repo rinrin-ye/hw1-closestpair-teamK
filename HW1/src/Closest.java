@@ -119,7 +119,7 @@ public class Closest {
 
     public static void main(String[] args) {
         Random r = new Random();
-        int[][] S = new int[r.nextInt(30)][2];
+        int[][] S = new int[r.nextInt(30)+2][2];
         for(int i=0; i<S.length; i++){
             for(int j=0; j<2; j++){
                 S[i][j] = r.nextInt(100);
